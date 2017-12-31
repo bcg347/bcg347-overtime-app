@@ -16,6 +16,7 @@ Rails.application.configure do
   config.cache_classes = true
   config.assets.digest = true
   config.serve_static_assets = true
+  config.action_mailer.default_url_options = { :host => 'bcg347-overtime.herokuapp.com/users/sign_in' }
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter

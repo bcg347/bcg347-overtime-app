@@ -7,7 +7,7 @@
 
 puts "1 employee created"
 
-AdminUser.create(email: 'admin@test.com', 
+AdminUser.create(email: 'bcg347@gmail.com', 
                 password: "asasass", 
                 password_confirmation: "asasass", 
                 first_name: "Admin", 
